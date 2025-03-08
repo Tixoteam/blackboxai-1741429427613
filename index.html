@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Logo -->
+    <header class="glass-header">
+        <div class="logo">
+            <i class="fas fa-code"></i>
+            <span>Portfolio</span>
+        </div>
+    </header>
+
+    <nav class="glass-nav">
+        <a href="#home" class="nav-link active">
+            <i class="fas fa-home"></i>
+            Home
+        </a>
+        <a href="#about" class="nav-link">
+            <i class="fas fa-user"></i>
+            About
+        </a>
+        <a href="#social" class="nav-link">
+            <i class="fas fa-share-alt"></i>
+            Social
+        </a>
+    </nav>
+
+    <div class="container">
+        <!-- Home Section -->
+        <section class="page active" id="home">
+            <div class="glass-box profile-content scroll-reveal">
+                <div class="profile-img">
+                    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+                </div>
+                <h1 class="glow-text">Your Name</h1>
+                <p class="title">Web Developer</p>
+                <div class="home-description">
+                    <p>Welcome to my portfolio! I specialize in creating beautiful and functional web experiences.</p>
+                    <a href="#about" class="cta-button">Learn More About Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="page" id="about">
+            <div class="glass-box bio-content scroll-reveal">
+                <h2 class="glow-text">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm a passionate web developer with a keen eye for design and a love for creating engaging user experiences.</p>
+                        <p>I specialize in front-end development and enjoy bringing creative ideas to life through code.</p>
+                    </div>
+                    <div class="skills-section">
+                        <h3>My Skills</h3>
+                        <div class="skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Section -->
+        <section class="page" id="social">
+            <div class="glass-box social-content scroll-reveal">
+                <h2 class="glow-text">Connect With Me</h2>
+                <div class="social-grid">
+                    <a href="#" class="social-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <p>Check out my code</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <p>Let's connect professionally</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <i class="fab fa-twitter"></i>
+                        <h3>Twitter</h3>
+                        <p>Follow my updates</p>
+                    </a>
+                    <a href="#" class="social-card">
+                        <i class="fab fa-instagram"></i>
+                        <h3>Instagram</h3>
+                        <p>See my creative side</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-code"></i>
+                <span>Portfolio</span>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="footer-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="footer-text">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="page-transition"></div>
+    <script src="script.js"></script>
+</body>
+</html>
